@@ -2,15 +2,11 @@
   "name": "chemical-synthesis-app",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://yourusername.github.io/chemical-synthesis-app",
+  "homepage": "https://cman-oss.github.io/chemical-synthesis",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint . --ext .js,.jsx --fix",
-    "format": "prettier --write \"src/**/*.{js,jsx,css}\"",
-    "test": "jest",
-    "prepare": "husky install",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
@@ -29,15 +25,9 @@
     "eslint": "^8.42.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-react": "^7.32.2",
-    "husky": "^8.0.3",
+    "gh-pages": "^6.3.0",
     "jest": "^29.5.0",
-    "lint-staged": "^13.2.2",
     "prettier": "^2.8.8",
-    "vite": "^4.3.9",
-    "vite-plugin-pwa": "^0.16.3"
-  },
-  "lint-staged": {
-    "*.{js,jsx}": "eslint --fix",
-    "*.{js,jsx,css,md}": "prettier --write"
+    "vite": "^4.3.9"
   }
 }
