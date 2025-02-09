@@ -1,0 +1,26 @@
+chemical-synthesis-app/
+├── .github/
+│   └── workflows/
+│       ├── ci.yml
+│       └── deploy.yml
+├── public/
+│   ├── favicon.ico
+│   ├── robots.txt
+│   └── sitemap.xml
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── contexts/
+│   ├── hooks/
+│   ├── pages/
+│   ├── services/
+│   ├── styles/
+│   └── utils/
+├── .env.example
+├── .gitignore
+├── .eslintrc.json
+├── .prettierrc
+├── jest.config.js
+├── package.json
+├── README.md
+└── vite.config.js 

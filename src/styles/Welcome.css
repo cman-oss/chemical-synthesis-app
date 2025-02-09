@@ -1,0 +1,397 @@
+.welcome-page {
+  min-height: 100vh;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #58cc02;
+}
+
+.logo img {
+  height: 2rem;
+}
+
+.language-selector {
+  padding: 0.5rem 1rem;
+  border: none;
+  background: none;
+  color: #777;
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+
+.welcome-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  gap: 4rem;
+  flex: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-illustration {
+  max-width: 400px;
+}
+
+.main-icon {
+  width: 100%;
+  height: auto;
+}
+
+.content-right {
+  flex: 1;
+  max-width: 500px;
+}
+
+.content-right h1 {
+  font-size: 2.5rem;
+  color: #4b4b4b;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: #777;
+  margin-bottom: 2rem;
+}
+
+.welcome-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.get-started-button {
+  background: #58cc02;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+  box-shadow: 0 4px 0 #58a700;
+}
+
+.get-started-button:hover {
+  background: #61e002;
+}
+
+.login-button {
+  background: white;
+  color: #1cb0f6;
+  padding: 1rem 2rem;
+  border: 2px solid #1cb0f6;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.login-button:hover {
+  background: #1cb0f6;
+  color: white;
+}
+
+.welcome-footer {
+  background: #f5f5f5;
+  padding: 4rem 2rem;
+}
+
+.feature-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feature-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card h3 {
+  color: #4b4b4b;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.feature-card p {
+  color: #777;
+}
+
+.background-pattern {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+.background-pattern img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.logo-bounce {
+  animation: bounce 2s infinite;
+}
+
+.floating-elements {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.float-element {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  opacity: 0.6;
+}
+
+.element-1 {
+  top: 20%;
+  left: 20%;
+  animation: float 3s infinite;
+}
+
+.element-2 {
+  top: 60%;
+  right: 20%;
+  animation: float 4s infinite 1s;
+}
+
+.element-3 {
+  bottom: 30%;
+  left: 40%;
+  animation: float 5s infinite 2s;
+}
+
+.pulse {
+  animation: pulse 2s infinite;
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+.highlight {
+  color: var(--primary-color);
+  position: relative;
+}
+
+.highlight::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: var(--primary-color);
+  opacity: 0.3;
+}
+
+.get-started-button {
+  position: relative;
+  padding: 1.5rem 2rem;
+}
+
+.button-subtitle {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: normal;
+  opacity: 0.8;
+  margin-top: 0.25rem;
+}
+
+.features-section {
+  background: linear-gradient(to bottom, #fff, #f5f5f5);
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.features-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: var(--text-dark);
+}
+
+.feature-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.feature-list {
+  list-style: none;
+  margin-top: 1rem;
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.feature-list li {
+  margin: 0.5rem 0;
+  color: var(--text-light);
+  position: relative;
+}
+
+.feature-list li::before {
+  content: '✓';
+  color: var(--primary-color);
+  position: absolute;
+  left: -1rem;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 4rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.footer-brand {
+  text-align: left;
+}
+
+.footer-logo {
+  width: 40px;
+  margin-bottom: 1rem;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.footer-column h4 {
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+}
+
+.footer-column a {
+  display: block;
+  color: var(--text-light);
+  text-decoration: none;
+  margin: 0.5rem 0;
+  transition: color 0.3s;
+}
+
+.footer-column a:hover {
+  color: var(--primary-color);
+}
+
+.footer-bottom {
+  border-top: 1px solid #eee;
+  padding: 2rem;
+  text-align: center;
+  color: var(--text-light);
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 768px) {
+  .welcome-content {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .content-right {
+    padding: 0 1rem;
+  }
+
+  .content-right h1 {
+    font-size: 2rem;
+  }
+
+  .welcome-illustration {
+    max-width: 300px;
+  }
+
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .footer-links {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-cards {
+    grid-template-columns: 1fr;
+  }
+} 

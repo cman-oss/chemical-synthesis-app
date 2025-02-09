@@ -1,0 +1,10 @@
+<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g opacity="0.1">
+    <circle cx="720" cy="450" r="5" fill="#58cc02"/>
+    <circle cx="720" cy="450" r="50" stroke="#58cc02" stroke-width="1"/>
+    <circle cx="720" cy="450" r="100" stroke="#58cc02" stroke-width="1"/>
+    <line x1="670" y1="450" x2="770" y2="450" stroke="#58cc02" stroke-width="1"/>
+    <line x1="720" y1="400" x2="720" y2="500" stroke="#58cc02" stroke-width="1"/>
+    <!-- Add more molecular structure patterns as needed -->
+  </g>
+</svg> 
