@@ -2,7 +2,7 @@
   "name": "chemical-synthesis-app",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://cman-oss.github.io/chemical-synthesis",
+  "homepage": "https://cman-oss.github.io/chemical-synthesis-app",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
