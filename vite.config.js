@@ -13,6 +13,7 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: undefined
+<<<<<<< HEAD
       },
       input: {
         main: resolve(__dirname, 'index.html'),
@@ -24,5 +25,9 @@ export default defineConfig({
     alias: {
       '@': resolve(__dirname, 'src')
     }
+=======
+      }
+    }
+>>>>>>> c5af05edb772fb855bffd8e62aac9547c133d9ca
   }
 })
