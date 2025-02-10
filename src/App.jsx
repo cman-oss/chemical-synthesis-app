@@ -34,7 +34,7 @@ function App() {
   return (
     <AuthProvider>
       <SubscriptionProvider>
-        <Router basename="/chemical-synthesis">
+        <Router basename="/chemical-synthesis-app">
           <Routes>
             {/* Public Routes */}
             <Route path="/" element={<Welcome />} />

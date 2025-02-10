@@ -4,7 +4,7 @@ import { resolve } from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/chemical-synthesis/',
+  base: '/chemical-synthesis-app/',
   plugins: [react()],
   build: {
     outDir: 'dist',
@@ -13,7 +13,6 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: undefined
-<<<<<<< HEAD
       },
       input: {
         main: resolve(__dirname, 'index.html'),
@@ -25,9 +24,5 @@ export default defineConfig({
     alias: {
       '@': resolve(__dirname, 'src')
     }
-=======
-      }
-    }
->>>>>>> c5af05edb772fb855bffd8e62aac9547c133d9ca
   }
 })
