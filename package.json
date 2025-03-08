@@ -1,10 +1,9 @@
 
-
 {
   "name": "chemical-synthesis-app",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://cman-oss.github.io/chemical-synthesis-app",
+  "homepage": "https://chemical-synthesis-app.vercel.app",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
