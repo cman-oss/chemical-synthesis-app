@@ -1,9 +1,10 @@
-// filepath: /workspaces/chemical-synthesis-app/package.json
+
+
 {
   "name": "chemical-synthesis-app",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://[your-username].github.io/chemical-synthesis-app",
+  "homepage": "https://cman-oss.github.io/chemical-synthesis-app",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
